@@ -21,6 +21,16 @@
     border-radius: 5px;
     border: none;
 }
+.section-desc{
+  font-size: 18px;
+}
+.section-title{
+  font-weight: bold;
+  font-size: 85px;
+}
+.secondary-bg{
+  background-color: #FFF8F3;
+}
 
 .header{
   background-image: url("../images/developer.png"), url("../images/header_bg.png");
@@ -62,13 +72,35 @@ nav li a {
   font-weight: 600;
   font-size: 40px;
 }
-.banner-title{
-  font-weight: bold;
-  font-size: 85px;
-}
-.banner-desc{
-  font-size: 18px;
-}
+
+
 .banner img{
   border: 2px solid aqua;
+}
+
+main{
+  max-width: 1140px;
+  border: 2px solid red;
+  margin: 0 auto;
+}
+.about{
+  text-align: center;
+  padding: 100px 150px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.about-content{
+  background-color: white;
+}
+.about-title{
+  font-weight: bold;
+  font-size: 35px;
+}
+.about-info{
+  font-weight: bold;
+  font-size: 20px;
 }
