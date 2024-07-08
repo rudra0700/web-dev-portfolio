@@ -12,28 +12,29 @@
 .dark-2 {
   color: #474747;
 }
-.btn-primary{
-    background-color: #FD6E0A;
-    color: white;
-    padding: 10px 20px;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 5px;
-    border: none;
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
 }
-.section-desc{
+.section-desc {
   font-size: 18px;
 }
-.section-title{
+.section-title {
   font-weight: bold;
   font-size: 85px;
 }
-.secondary-bg{
-  background-color: #FFF8F3;
+.secondary-bg {
+  background-color: #fff8f3;
 }
 
-.header{
-  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
@@ -59,48 +60,76 @@ nav ul li {
 nav li a {
   text-decoration: none;
 }
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   margin: 0px 35px 0px 200px;
 }
-.banner-content{
+.banner-content {
   max-width: 585px;
   border: 2px solid red;
 }
-.banner-greetings{
+.banner-greetings {
   font-weight: 600;
   font-size: 40px;
 }
 
-
-.banner img{
+.banner img {
   border: 2px solid aqua;
 }
 
-main{
+main {
   max-width: 1140px;
   border: 2px solid red;
   margin: 0 auto;
 }
-.about{
+/* main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+} */
+.about {
   text-align: center;
   padding: 100px 150px;
   border-radius: 10px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
-.about-items{
+.about-items {
   display: flex;
   justify-content: space-around;
 }
-.about-content{
+.about-content {
   background-color: white;
 }
-.about-title{
+.about-title {
   font-weight: bold;
   font-size: 35px;
 }
-.about-info{
+.about-info {
   font-weight: bold;
   font-size: 20px;
+}
+
+.skills {
+  border: 2px solid red;
+  padding: 100px;
+}
+.skill-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+.skill-desc {
+  font-size: 18px;
+  text-align: center;
+}
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  /* border: 2px solid red; */
+  padding: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
