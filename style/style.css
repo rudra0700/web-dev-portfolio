@@ -21,6 +21,12 @@
     border-radius: 5px;
     border: none;
 }
+
+.header{
+  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 nav {
   display: flex;
   align-items: center;
@@ -42,4 +48,27 @@ nav ul li {
 }
 nav li a {
   text-decoration: none;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0px 200px;
+}
+.banner-content{
+  max-width: 585px;
+  border: 2px solid red;
+}
+.banner-greetings{
+  font-weight: 600;
+  font-size: 40px;
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 85px;
+}
+.banner-desc{
+  font-size: 18px;
+}
+.banner img{
+  border: 2px solid aqua;
 }
