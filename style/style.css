@@ -31,7 +31,6 @@
 .secondary-bg {
   background-color: #fff8f3;
 }
-
 .header {
   background-image: url("../images/developer.png"),
     url("../images/header_bg.png");
@@ -67,26 +66,15 @@ nav li a {
 }
 .banner-content {
   max-width: 585px;
-  border: 2px solid red;
 }
 .banner-greetings {
   font-weight: 600;
   font-size: 40px;
 }
-
-.banner img {
-  border: 2px solid aqua;
-}
-
 main {
   max-width: 1140px;
-  border: 2px solid red;
   margin: 0 auto;
 }
-/* main section{
-  margin-top: 130px;
-  margin-bottom: 130px;
-} */
 .about {
   text-align: center;
   padding: 100px 150px;
@@ -110,7 +98,6 @@ main {
 }
 
 .skills {
-  border: 2px solid red;
   padding: 100px;
 }
 .skill-title {
@@ -134,10 +121,32 @@ main {
   border-radius: 5px;
 }
 
-.resume-container{
+.resume-container {
   display: flex;
   gap: 24px;
 }
-.resume .resume-btn{
+.resume .resume-btn {
   text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  padding: 130px 200px;
+  gap: 20px;
+}
+.footer-column {
+  width: 50%;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  background-color: white;
+  border-radius: 5px;
+  display: block;
+  width: 98%;
+  margin-bottom: 24px;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
 }
